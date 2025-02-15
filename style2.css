@@ -1,0 +1,25 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-rows: repeat(2,2fr);
+}
+
+.serie1,.serie2,.serie3,.serie4,.serie5,.serie6{
+    background-color: aqua;
+    padding: 80px;
+    border: 5px solid black;
+}
+
+.serie1{
+      background-color: blueviolet;
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+.serie2{
+    background-color: blue;
+   grid-column: 1/2;
+   grid-row: 1/ 2;
+
+}
+
+

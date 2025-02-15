@@ -1,0 +1,15 @@
+img{
+    width: 50px;
+    margin-top: 10px;
+}
+
+h1{
+    
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    
+}
+
+nav{
+    position: fixed;
+}
